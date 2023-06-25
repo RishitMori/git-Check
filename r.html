@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" />
+    <title>Document</title>
+    <script>
+        console.log(document.getElementById("ris"));
+        document.getElementById("ris").onclick=func();
+
+        function func(){
+            document.getElementById("ris").innerHTML = "hiiirishit";
+        }
+        
+     </script>
+    <style>
+     table{
+        border-collapse: collapse;
+        border-style:inherit;
+     }
+    </style>
+  </head>
+  <body>
+   <table border="1">
+    <thead>
+        <th>NO.</th>
+        <th>Full Name</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>Type</th>
+    </thead>
+    <tbody>
+    <tr>
+        <th>1</th>
+        <th>Bill Gates</th>
+        <th>Microsoft</th>
+        <th>$1000</th>
+        <th rowspan="4">Company Founder</th>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>Bill Gates</th>
+        <th>Microsoft</th>
+        <th>$1000</th>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th>Bill Gates</th>
+        <th>Microsoft</th>
+        <th>$1000</th>
+    </tr>
+    <tr>
+        <th>4</th>
+        <th>Bill Gates</th>
+        <th>Microsoft</th>
+        <th>$1000</th>
+    </tr>
+    <tfoot>
+        <th colspan="3">Total Expense</th>
+        <th>$4600</th>
+    </tfoot>
+
+    </tbody>
+   </table>
+
+   <br>
+   <form action="#">
+    <input type="email" value="rishit@gmail.com">
+    <br>
+    <br>
+    <label for="comments"></label>
+    <textarea name="comments" ></textarea>
+    <fieldset>
+    <select name="cars" id="cars">
+        <option value="audi">audi</option>
+        <option value="bmw">bmw</option>
+        <option value="tesla">tesla</option>
+    </select>
+    <p id="qw">selected car</p>
+    <p id="rrr">hello</p>
+
+    <input type="checkbox" value="g16" id="ris">hello
+</fieldset>
+<fieldset>
+    <legend>hellohii</legend>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio harum, voluptatum unde itaque vitae voluptas culpa! Cupiditate inventore incidunt placeat reiciendis numquam. Alias aut quia hic a, deserunt facere dignissimos atque architecto rerum consectetur in quo aspernatur! Consequatur nobis nesciunt distinctio! Expedita delectus deserunt dignissimos perferendis, consectetur quaerat architecto recusandae soluta, numquam perspiciatis ipsam explicabo! Reprehenderit consequatur cumque obcaecati, assumenda in officiis? Nam autem totam officia ducimus quisquam incidunt animi. Tempore ab possimus odio inventore eum quam eos nostrum adipisci laborum facere rem debitis tempora voluptatem aliquid maiores, pariatur voluptate officiis deserunt ducimus id autem? Debitis quibusdam possimus, minus nemo dolores maiores aliquam nam, quo provident au
+    </p>
+</fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+
+            <details>
+                <summary>what is your name ?</summary>
+                <span>rishit Mori</span>
+            </details>
+            <details>
+                <summary>what is your age ?</summary>
+                <span>20</span>
+                </details>
+        </fieldset>
+
+    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80" width="100px" height="100px" alt="trying" loading="lazy">
+
+   </form>
+  </body>
+</html>

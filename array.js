@@ -1,0 +1,13 @@
+let arr = [1, 2, 3, 4, 5];
+arr.push("last element");
+arr.unshift("first element");
+console.log(arr);
+console.log(arr.slice(2, 4));
+let c = arr.concat(arr.slice(3, 4));
+console.log(arr.indexOf("2"));
+let str = "rishit is good boy";
+let d = str.split(" ");
+let joining = d.join("+");
+str += "hello";
+console.log(joining);
+str.trim();
